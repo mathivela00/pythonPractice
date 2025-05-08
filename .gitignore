@@ -1,0 +1,89 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+pythonenv/
+
+# Archivos de variables de entorno (contienen secretos)
+.env
+.env.*
+!.env.example
+
+# Logs y bases de datos locales
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Configuración de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Configuración específica para este proyecto
+celerybeat-schedule
+celerybeat.pid
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Archivos de caché específicos de Python
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+
+# Archivos específicos de Microsoft SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Certificados y secretos
+*.pem
+*.key
+*.cert
+
+# Archivos específicos del sistema
+Thumbs.db
+desktop.ini
+
+# Node.js (si usas frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
